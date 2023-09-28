@@ -50,7 +50,7 @@ public class ProductoController {
 	public String Agregar(Model model) {
 		   model.addAttribute("producto",new Producto());
 
-		return "AgregarProductos";
+		return "AgregarProducto";
 		
 	}
 }
